@@ -5,10 +5,10 @@ function lowerCaseDrivers(drivers) {
 
 const drivers = ['Bob Simpson', 'James Smart', 'John Jameson'];
 
-// const driversObjects = [];
-// //   drivers.map(function(driver) {
-// //     driver.split("")})
-// // }
+const driversObjects = [];
+  drivers.map(function(driver) {
+    driver.split("")})
+}
 
 function splitName(names) {
   return names.map(function(name) {
