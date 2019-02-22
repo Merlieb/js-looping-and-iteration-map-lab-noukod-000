@@ -4,21 +4,21 @@ function lowerCaseDrivers(drivers) {
 }
 
 // const drivers = ['Bob Simpson', 'James Smart', 'John Jameson'];
-// 
+//
 // const driversObjects = [];
 //   drivers.map(function(driver) {
 //     driver.split("")})
 // }
-// 
+//
 // function splitName(names) {
 //   return names.map(function(name) {
 //     return name.split(" ");
 //   })
 // }
-// 
-// 
+//
+//
 // const splitNames = splitName(drivers);
-// 
+//
 // function objectConstructor(splitNames) {
 //   const driversObjects= [];
 //   splitNames.map(function(splitName) {
@@ -29,9 +29,9 @@ function lowerCaseDrivers(drivers) {
 //   })
 //   return driversObjects;
 // }
-// 
+//
 // objectConstructor(splitNames);
-// 
+//
 // const drivers = [
 //         { name: 'Bobby',   hometown: 'Pittsburgh'  },
 //         { name: 'Sammy',   hometown: 'New York'    },
@@ -39,7 +39,7 @@ function lowerCaseDrivers(drivers) {
 //         { name: 'Annette', hometown: 'Los Angeles' },
 //         { name: 'Bobby',   hometown: 'Tampa Bay'   }
 //       ];
-// 
+//
 // function attributesToPhrase(drivers) {
 //   const strings = [];
 //   drivers.map(function(driver) {
@@ -47,5 +47,5 @@ function lowerCaseDrivers(drivers) {
 //   })
 //   return strings;
 // }
-// 
+//
 // attributesToPhrase(drivers);
