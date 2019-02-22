@@ -2,7 +2,6 @@
 function lowerCaseDrivers(drivers) {
   return drivers.map(function(driverName){return driverName.toLowerCase() });
 }
-
 // const drivers = ['Bob Simpson', 'James Smart', 'John Jameson'];
 //
 // const driversObjects = [];
@@ -40,12 +39,12 @@ function lowerCaseDrivers(drivers) {
 //         { name: 'Bobby',   hometown: 'Tampa Bay'   }
 //       ];
 //
-// function attributesToPhrase(drivers) {
-//   const strings = [];
-//   drivers.map(function(driver) {
-//     strings.push(`${driver.name} is from ${driver.hometown}`)
-//   })
-//   return strings;
-// }
-//
-// attributesToPhrase(drivers);
+function attributesToPhrase(drivers) {
+  const strings = [];
+  drivers.map(function(driver) {
+    strings.push(`${driver.name} is from ${driver.hometown}`)
+  })
+  return strings;
+}
+
+attributesToPhrase(drivers);
